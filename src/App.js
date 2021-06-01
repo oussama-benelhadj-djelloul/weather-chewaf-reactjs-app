@@ -40,15 +40,15 @@ class App extends Component {
       <div className="App" >
         <Container fluid>
           <Row>
-            <Col >
+            <Col xs={12}  >
 
               <div class="p-4 w-100 mx-auto text-center">
 
 
                 <img src={logo} class="w-100" height="900px" alt="" />
               </div>
-            </Col>
-            <Col>
+            </Col >
+            <Col xs={12}>
               <div class="d-flex   align-items-center" >
                 <div class="w-75 px-5 text-center center">
                   <h1 class="mx-auto">The Weather Chewaf</h1>
