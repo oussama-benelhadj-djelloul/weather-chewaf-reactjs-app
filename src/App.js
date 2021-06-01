@@ -21,7 +21,7 @@ class App extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('http://api.openweathermap.org/data/2.5/weather?q=' + this.state.location + '&units=imperial&appid=' + this.state.apiKey)
+    axios.post('https://api.openweathermap.org/data/2.5/weather?q=' + this.state.location + '&units=imperial&appid=' + this.state.apiKey)
       .then(res => {
         console.log(res);
         console.log(res.data);
