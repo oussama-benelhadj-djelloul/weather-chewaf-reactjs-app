@@ -24,4 +24,7 @@ transform: translate(0, -50%);
     transform: translate(0, 0);
     width :100%;
   }
+  img {
+    height: 600px;
+  }
 }
